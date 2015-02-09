@@ -43,6 +43,7 @@ public class CoalMiner extends Script implements Paintable, MessageListener {
 	/**
 	 * The fally bank zone
 	 */
+	 
 	public static final Zone FALLY_BANK = new Zone(new Tile(3009, 3358), new Tile(3018, 3354));
 	/**
 	 * The coal rock ids.
