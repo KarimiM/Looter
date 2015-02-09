@@ -40,6 +40,9 @@ import com.scape06.misc.Zone;
  */
 @ScriptManifest(author = "Empathy", category = Category.MINING, description = "Mines coal at mining guild", name = "06CoalMiner", servers = { "2006Scape" }, version = 2.2)
 public class CoalMiner extends Script implements Paintable, MessageListener {
+	/**
+	 * The fally bank zone
+	 */
 	public static final Zone FALLY_BANK = new Zone(new Tile(3009, 3358), new Tile(3018, 3354));
 	/**
 	 * The coal rock ids.
