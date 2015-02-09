@@ -35,6 +35,7 @@ import com.scape06.misc.Zone;
 
 /**
  * A coal mining script.
+ * Using deprecated sleep conditions due to normal one giving me problems.
  * @author Masood
  *
  */
