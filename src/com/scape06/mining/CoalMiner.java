@@ -360,8 +360,8 @@ public class CoalMiner extends Script implements Paintable, MessageListener {
 	}
 	@Override
 	public void messageReceived(MessageEvent m) {
+		//currently doesn't work.
 		/*
-		 * currently doesn't work
 		if (m.getType() == 0) {
 			if ((m.getMessage().contains("manage to mine some"))) {
 			}
