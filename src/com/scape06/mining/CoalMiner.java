@@ -71,10 +71,6 @@ public class CoalMiner extends Script implements Paintable, MessageListener {
 	 */
 	private final ScriptTimer timer = new ScriptTimer(Skill.MINING, 1500); // 1500xp/coal
 
-	/**
-	 * Represents if we're mining or not.
-	 */
-
 	@Override
 	public boolean onExecute() {		
 		provide(Arrays.asList(new Click(), new AntiRandom(), new Banking(), new Walk(), new Mine()));
