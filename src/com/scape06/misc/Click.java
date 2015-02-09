@@ -4,7 +4,7 @@ import org.parabot.environment.api.utils.Timer;
 import org.parabot.environment.input.Mouse;
 import org.parabot.environment.scripts.framework.Strategy;
 /**
- * A anti macro class for 2006scape.
+ * An anti macro class for 2006scape.
  * @author Masood
  *
  */
